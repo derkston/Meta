@@ -1,0 +1,98 @@
+@font-face {
+	font-family: Audiowide ;
+	src: url(../fonts/Audiowide-Regular.woff2);
+}
+@font-face {
+	font-family: DM Mono ;
+	src: url(../fonts/DMMono-Regular.woff2);
+}
+@font-face {
+	font-family: Inter ;
+	src: url(../fonts/Audiowide-Regular.woff2);
+}
+
+h1 {
+	font-family: 'Audiowide';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 51px;
+	line-height: 61px;
+	text-transform: uppercase;
+	color: white;
+}
+
+h2 {
+	font-family: Audiowide;
+	font-size: 37px;
+	font-weight: 400;
+	line-height: 45px;
+	letter-spacing: 0em;
+	color: white;
+}
+h2 span {
+	font-family: Audiowide;
+	font-size: 37px;
+	font-weight: 400;
+	line-height: 45px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(168, 168, 168, 1);
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: DM Mono;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0em;
+	color: white;
+}
+
+h4 {
+	font-family: DM Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+}
+
+p {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	color: white;
+}
+
+p.num {
+	font-family: DM Mono;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0em;
+	color: rgba(141, 253, 27, 1);
+}
+p.phase {
+	font-family: DM Mono;
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: rgba(141, 253, 27, 1);
+	text-transform: uppercase;
+}
+h2.date {
+	font-family: DM Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+	text-transform: uppercase;
+}
