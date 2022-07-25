@@ -52,3 +52,67 @@ footer {
 }
 
 /*===================================================*/
+
+.content {
+	width: 100%;
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+body {
+	background: black;
+}
+
+/* HEADER */
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+.header__items {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.header__items .nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.logo , .social {
+	flex-grow: 0;
+}
+.nav__menu {
+	margin-left: 60px;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 40px;
+}
+.nav__link {
+	font-family: DM Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.social li {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+}
