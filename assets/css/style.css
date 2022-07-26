@@ -161,6 +161,10 @@ body {
 .collection {
 	margin-top: 100px;
 }
+.collection h2 {
+	text-align: left;
+	margin-bottom: 0px;
+}
 .section__items {
 	width: 100%;
 	display: flex;
@@ -180,4 +184,29 @@ body {
 }
 .sect__item .button {
 	margin-top: 30px;
+}
+
+/* ARTIST */
+
+.artists {
+	margin-top: 100px;
+}
+
+.artist__list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 50px 0px ;
+}
+.artist__list li {
+	flex-basis: 23%;
+}
+.artist__img {
+	max-width: 245px;
+	max-height: 245px;
+}
+.artist__list h3 {
+	margin-top: 20px;
+	text-align: center;
 }
