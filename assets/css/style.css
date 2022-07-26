@@ -120,7 +120,9 @@ body {
 
 
 /* MAIN */ 
-
+section:not(section.master-section){
+	margin-top: 100px;
+}
 .master-section__items {
 	padding: 40px 0px;
 	width: 100%;
@@ -158,9 +160,6 @@ body {
 
 
 /* COLLECTION */ 
-.collection {
-	margin-top: 100px;
-}
 .collection h2 {
 	text-align: left;
 	margin-bottom: 0px;
@@ -188,9 +187,6 @@ body {
 
 /* ARTIST */
 
-.artists {
-	margin-top: 100px;
-}
 
 .artist__list {
 	width: 100%;
@@ -209,4 +205,49 @@ body {
 .artist__list h3 {
 	margin-top: 20px;
 	text-align: center;
+}
+
+
+/* MRL STORY */
+
+.mrl__item {
+	width: 100%;
+	display: flex;
+}
+.mrl__list {
+	flex-basis: 25%;
+}
+.mrl__list li {
+	width: 100%;
+	padding:  25px 0px;
+	padding-left: 25px;
+	transition: all 0.6s ease-out;
+}
+.mrl__list li h3 {
+	cursor: pointer;
+}
+.mrl__list li:hover ,  .mrl__list li.active{
+	background: #222222;
+}
+.mrl__list li:hover h3  , .mrl__list li.active h3{
+	color: #8DFD1B;
+}
+.mrl__contents {
+	flex-basis: 75%;
+}
+.mrl__content {
+	max-width: 100%;
+	display: none;
+	padding: 40px;
+	background: #222222;
+}
+.mrl__content.active {
+	display: flex;
+}
+.mrl-img {
+	margin-right: 40px;
+	max-height: 250px;
+}
+.mrl__content_text p {
+	margin: 18px 0px;
 }
