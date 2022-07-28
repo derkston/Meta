@@ -431,3 +431,16 @@ h3.team__post {
 	letter-spacing: 0em;
 	text-align: center;
 }
+
+
+
+/* DISCORD */ 
+.discord .section__items {
+	align-items: center;
+}
+.discord .sect__item:first-child h2 span {
+	color: #8DFD1B;
+}
+.discord .button img {
+	margin-right: 10px;
+}
