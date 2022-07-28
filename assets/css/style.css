@@ -332,8 +332,12 @@ section:not(section.master-section){
 	text-align: left;
 	color: white;
 }
+.roadmap-card__bottom .roadmap__text > p {
+	margin: 10px 0px;
+}
 .roadmap-card__bottom img {
-	width: 130px;
-	height: 130px;
+	margin-left: 25px;
+	max-width: 130px;
+	max-height: 130px;
 	border-radius: 8px;
 }
