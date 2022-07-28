@@ -275,8 +275,8 @@ section:not(section.master-section){
 	position: absolute;
 }
 .rings:first-child {
-	top: -50%;
-  transform: translateY(50%);
+	top: -25%;
+  transform: translateY(25%);
 	left: 0%;
 }
 .rings:nth-child(2) {
@@ -340,4 +340,23 @@ section:not(section.master-section){
 	max-width: 130px;
 	max-height: 130px;
 	border-radius: 8px;
+}
+
+/* PARTNERS */ 
+main section.partners {
+	margin-top: 250px;
+}
+.partners__items h2 {
+	color: #8DFD1B;
+}
+.partners__list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 60px 0px ;
+}
+.partners__list li {
+	flex-basis: 30%;
 }
