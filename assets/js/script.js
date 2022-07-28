@@ -8,6 +8,13 @@
 			disableOnInteraction: false,
 		},
 	});
+	var swiper = new Swiper(".team__swiper", {
+		slidesPerView: 3,
+		spaceBetween: 30,
+		slidesPerGroup: 3,
+		loop: true,
+		loopFillGroupWithBlank: true,
+	});
 
 	const mrlContents = document.querySelectorAll('.mrl__content');
 	const mrlList = document.querySelector('.mrl__list');
