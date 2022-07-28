@@ -444,3 +444,33 @@ h3.team__post {
 .discord .button img {
 	margin-right: 10px;
 }
+
+
+
+/* Footer */ 
+
+.footer {
+	margin-top: 120px;
+	background: #42006A;
+	padding: 50px 0px;
+}
+.footer__items {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px 0px;
+	justify-content: space-between;
+}
+.footer__list {
+	display: flex;
+	flex-basis: 50%;
+	justify-content: space-between;
+}
+.footer__list  li {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.footer__items .social {
+	align-items: flex-start;
+}
