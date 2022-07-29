@@ -8,13 +8,23 @@
 			disableOnInteraction: false,
 		},
 	});
-	var swiper = new Swiper(".team__swiper", {
-		slidesPerView: 3,
-		spaceBetween: 30,
-		slidesPerGroup: 3,
-		loop: true,
-		loopFillGroupWithBlank: true,
-	});
+	if (window.innerWidth < 577){
+		var swiper = new Swiper(".team__swiper", {
+			slidesPerView: 1,
+			spaceBetween: 20,
+			slidesPerGroup: 1,
+			loop: true,
+			loopFillGroupWithBlank: true,
+		});
+	}else {
+		var swiper = new Swiper(".team__swiper", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			slidesPerGroup: 3,
+			loop: true,
+			loopFillGroupWithBlank: true,
+		});
+	}
 
 	const mrlContents = document.querySelectorAll('.mrl__content');
 	const mrlList = document.querySelector('.mrl__list');

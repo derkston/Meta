@@ -60,7 +60,33 @@
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-
+	.mrl__content {
+		padding: 10px;
+	}
+	.artist__list li {
+		flex-basis: 100%;
+	}
+	.rings {
+		display: none;
+	}
+	.mrl-img {
+		display: none;
+	}
+	section.partners {
+		display: none;
+	}
+	.section__items {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 25px;
+	}
+	.sect__item:first-child {
+		padding-right: 0;
+	}
+	.footer__list {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
 }
 
 
