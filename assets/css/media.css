@@ -7,17 +7,55 @@
 
 /* lg <= Extra large (xl) */
 @media (max-width : 1200px) {
-
+	.content {
+		padding: 0px 15px;
+	}
+	.artist__list li {
+		flex-basis: 33%;
+	}
+	.partners__list li {
+		flex-basis: 49%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.frequently__list li h2  {
+		margin-top: 10px;
+	}
 }
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
-
+	.footer__list {
+		flex-basis: 75%;
+	}
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
+	.burger {
+		display: block;
+	}
+	.header__items .nav {
+		justify-content: space-between;
+	}
+	.nav__items {
+		display: none;
+	}
+	.artist__list li {
+		flex-basis: 49%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
+	.footer__items {
+		justify-content: center;
+	}
+	.footer__list {
+		flex-basis: 100%;
+	}
 }
 
 /* xs <= Small (sm) */
