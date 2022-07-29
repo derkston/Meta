@@ -30,4 +30,11 @@
 		
 	});
 
+	const burger = document.querySelector('.burger');
+	const navItems = document.querySelector('.nav__items')
+	burger.addEventListener('click' , function(){
+		burger.classList.toggle('active')
+		navItems.classList.toggle('active')
+	});
+
 
