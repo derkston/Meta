@@ -121,3 +121,25 @@ h2.date {
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
+
+@media (max-width : 768px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 , h2 span {
+		font-size: 24px;
+	}
+	h2.green {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 12px;
+	}
+	p.num {
+		font-size: 22px;
+	}
+
+}
